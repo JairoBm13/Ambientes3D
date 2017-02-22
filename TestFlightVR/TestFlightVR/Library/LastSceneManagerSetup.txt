@@ -1,0 +1,7 @@
+sceneSetups:
+- path: Assets/VRSampleScenes/Scenes/Examples/Rotation.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/VRSampleScenes/Scenes/Flyer.unity
+  isLoaded: 1
+  isActive: 0
