@@ -1,7 +1,7 @@
-Initialize engine version: 5.5.0f3 (38b4efef76f0)
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
+    Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   NVIDIA
     VRAM:     8110 MB
@@ -21,14 +21,14 @@ Platform assembly: C:\Users\AI3D\Documents\Jairo\Ambientes3D\proyectoVR\Builds\R
 Loading C:\Users\AI3D\Documents\Jairo\Ambientes3D\proyectoVR\Builds\Rollball (WIN)_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\AI3D\Documents\Jairo\Ambientes3D\proyectoVR\Builds\Rollball (WIN)_Data\Managed\UnityEngine.VR.dll (this message is harmless)
 Loading C:\Users\AI3D\Documents\Jairo\Ambientes3D\proyectoVR\Builds\Rollball (WIN)_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
-- Completed reload, in  0.161 seconds
+- Completed reload, in  0.139 seconds
 Platform assembly: C:\Users\AI3D\Documents\Jairo\Ambientes3D\proyectoVR\Builds\Rollball (WIN)_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\AI3D\Documents\Jairo\Ambientes3D\proyectoVR\Builds\Rollball (WIN)_Data\Managed\System.dll (this message is harmless)
 desktop: 1680x1050 59Hz; virtual: 1680x1050 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Overlay is using an unsupported compressed pixel format.UnloadTime: 1.100918 ms
+UnloadTime: 0.800449 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1080 -> priority: 1 
-  Thread -> id: 2eac -> priority: 1 
+  Thread -> id: 21e4 -> priority: 1 
+  Thread -> id: 31a0 -> priority: 1 

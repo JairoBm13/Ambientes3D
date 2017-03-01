@@ -1,9 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{9BCC9BAE-149E-C2D3-F9AA-172E2B939C6B}") = "proyectoVR", "Assembly-CSharp.csproj", "{8C1F1396-C26B-0D48-8A37-031B04DC1CFD}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyectoVR", "Assembly-CSharp.csproj", "{8C1F1396-C26B-0D48-8A37-031B04DC1CFD}"
 EndProject
-Project("{9BCC9BAE-149E-C2D3-F9AA-172E2B939C6B}") = "proyectoVR", "Assembly-CSharp-Editor.csproj", "{659123BC-5979-F0DB-BD2F-FC7A409AFD64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyectoVR", "Assembly-CSharp-Editor.csproj", "{659123BC-5979-F0DB-BD2F-FC7A409AFD64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
