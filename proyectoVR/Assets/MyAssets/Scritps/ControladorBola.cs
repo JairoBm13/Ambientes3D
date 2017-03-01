@@ -43,7 +43,7 @@ public class ControladorBola : MonoBehaviour {
 
 	private void Update(){
 		print (OVRInput.GetActiveController());
-		if (Input.GetKey("A")) {
+		if (true) {
 			tipo = false;
 		} else {
 			tipo = false;
