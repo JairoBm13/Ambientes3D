@@ -17,11 +17,12 @@ public class ControladorBola : MonoBehaviour {
     {
 		float moveHorizontal = Input.GetAxis("izqX");
 		float moveVertical = Input.GetAxis("downY");
-		if (!tipo) {
+		while (!tipo) {
 			var head = InputTracking.GetLocalRotation(VRNode.Head);
 			Vector3 movimiento = new Vector3(moveHorizontal, 0f, moveVertical);
 			cuerpoRigido.AddForce(head*movimiento*(speed));
-		} else {
+		}
+		while (tipo){
 			Vector3 movimiento = new Vector3(moveHorizontal, 0f, moveVertical);
 			cuerpoRigido.AddForce(movimiento*(speed)*speedModifier);
 		}
@@ -42,7 +43,7 @@ public class ControladorBola : MonoBehaviour {
 
 	private void Update(){
 		print (OVRInput.GetActiveController());
-		if (OVRInput.Get (OVRInput.RawButton.A)) {
+		if (Input.GetKey("A")) {
 			tipo = false;
 		} else {
 			tipo = false;
