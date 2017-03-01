@@ -12,10 +12,12 @@ public class CamControl : MonoBehaviour {
     // Use this for initialization
 	void Start () {
         transform.position = player.transform.position;
+		transform.rotation = player.transform.rotation;
 	}
 	
 	// Update is called once per frame
 	void LateUpdate () {
         transform.position = player.transform.position;
+		transform.rotation = player.transform.rotation;
 	}
 }

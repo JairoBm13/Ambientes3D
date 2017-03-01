@@ -19,14 +19,14 @@ public class ControladorBola : MonoBehaviour {
 		     vector.y = 0;
 			
 
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        float moveHorizontal = Input.GetAxis("izqX");
+        float moveVertical = Input.GetAxis("downY");
 
 
-		Vector3 movimiento = new Vector3(vector.z, vector.y, vector.x);
+		Vector3 movimiento = new Vector3(moveHorizontal, vector.y, moveVertical);
 
 
-		cuerpoRigido.AddForce(head*Vector3.forward*(
+		cuerpoRigido.AddForce(movimiento/***Vector3.forward*/*(
 			speed));
 		//}
     }
