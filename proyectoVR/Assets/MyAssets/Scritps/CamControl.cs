@@ -14,15 +14,19 @@ public class CamControl : MonoBehaviour {
     
     // Use this for initialization
 	void Start () {
-		head = InputTracking.GetLocalRotation(VRNode.Head);
-        transform.position = player.transform.position;
+		offset = transform.position - player.transform.position;
+
+		//head = InputTracking.GetLocalRotation(VRNode.Head);
+        //transform.position = player.transform.position;
 		transform.rotation = player.transform.rotation;
 	}
 	
 	// Update is called once per frame
 	void LateUpdate () {
-		head = InputTracking.GetLocalRotation(VRNode.Head);
-        transform.position = player.transform.position;
-		transform.rotation = head;
+		//head = InputTracking.GetLocalRotation(VRNode.Head);
+        //transform.position = player.transform.position;
+		//transform.rotation = head;
+		transform.position = player.transform.position + offset;
+		transform.rotation = player.transform.rotation;
 	}
 }
