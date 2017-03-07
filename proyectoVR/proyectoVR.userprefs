@@ -1,5 +1,5 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+﻿<Properties StartupItem="proyectoVR.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scritps\ControladorBola.cs">
     <Files>
       <File FileName="Assets\MyAssets\Scritps\ControladorBola.cs" Line="33" Column="50" />
