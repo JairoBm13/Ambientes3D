@@ -10,23 +10,19 @@ public class CamControl : MonoBehaviour {
     private Vector3 offset;
 
 	private Quaternion head;
-    
+	private Vector3 velocity = Vector3.zero;
+
     
     // Use this for initialization
 	void Start () {
 		offset = transform.position - player.transform.position;
-
-		//head = InputTracking.GetLocalRotation(VRNode.Head);
-        //transform.position = player.transform.position;
 		transform.rotation = player.transform.rotation;
+		transform.position = player.transform.position + offset;
 	}
 	
 	// Update is called once per frame
-	void LateUpdate () {
-		//head = InputTracking.GetLocalRotation(VRNode.Head);
-        //transform.position = player.transform.position;
-		//transform.rotation = head;
-		transform.position = player.transform.position + offset;
+	void Update () {
+		transform.position = Vector3.SmoothDamp(transform.position, player.transform.position + offset, ref velocity, 0.7F);
 		transform.rotation = player.transform.rotation;
 	}
 }
