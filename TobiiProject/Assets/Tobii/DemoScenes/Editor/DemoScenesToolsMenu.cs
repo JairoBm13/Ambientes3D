@@ -11,6 +11,7 @@ public class DemoScenesToolsMenu
     {
         var scenes = EditorBuildSettings.scenes;
         ArrayUtility.Add(ref scenes, new EditorBuildSettingsScene("Assets/Tobii/DemoScenes/01_EyeTrackingData.unity", true));
+        ArrayUtility.Add(ref scenes, new EditorBuildSettingsScene("Assets/Tobii/DemoScenes/02_SimpleGazeSelection.unity", true));
         ArrayUtility.Add(ref scenes, new EditorBuildSettingsScene("Assets/Tobii/DemoScenes/03_EyeTrackingStatusAndConfiguration.unity", true));
         EditorBuildSettings.scenes = scenes;
     }
